@@ -1,0 +1,29 @@
+.cards {
+    background-color: beige;
+    display: grid;
+    width: 9rem;
+    height: 9rem;
+    margin: 2px;
+    padding: 5px;
+    float: left;
+    gap: 2;
+}
+
+@media (min-width:600px) {
+    .cards {
+        width: 7rem;
+        height: 7rem;
+    }
+}
+
+@media (min-width:200px) {
+    .cards {
+        width: 12rem;
+        height: 12rem;
+    }
+}
+
+.field:focus {
+    border-color: blue;
+    background-color: burlywood;
+}
